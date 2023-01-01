@@ -23,7 +23,7 @@ class BottomRightButton extends StatelessWidget {
     return Align(
       alignment: Alignment.bottomRight,
       child: Padding(
-        padding: const EdgeInsets.only(right: 8.0, bottom: 8),
+        padding: const EdgeInsets.only(right: 12.0, bottom: 12),
         child: Container(
           width: 120,
           child: ElevatedButton(
@@ -38,7 +38,7 @@ class BottomRightButton extends StatelessWidget {
               children: [
                 Icon(
                   icon,
-                  size: 30,
+                  size: 25,
                 ),
                 Text(text),
               ],
